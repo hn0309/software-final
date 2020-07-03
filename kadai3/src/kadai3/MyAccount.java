@@ -7,8 +7,9 @@ public class MyAccount {
 	private int m_balance;
 
 	//Constructor
-	public MyAccount()
-	{}
+	public MyAccount(){
+		
+	}
 
 	//getter
 
@@ -48,5 +49,6 @@ public class MyAccount {
 	public void setBalance(int balance)
 	{
 		this.m_balance = balance;
+		
 	}
 }
